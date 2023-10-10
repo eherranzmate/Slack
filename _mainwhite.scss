@@ -1,0 +1,138 @@
+section {
+    &.main-page-background-white {
+        background-color: $color-secondary;
+        width: 100%;
+        height: 1400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+h1 {
+    &.title-main-page-background-white {
+        font-size: 35px;
+        width:85%;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+p {
+    &.text-main-page-background-white {
+        font-size: 25px;
+        text-align: center;
+        margin-top: 20px;
+        width: 85%;
+    }
+
+    &.text-stats {
+        font-size: 17px;
+        width:50%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    &.text-opinion-vodafone {
+        text-decoration-line: none;
+        text-align: left;
+        font-size: 25px;
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+
+    &.text-opinion-vodafone-name {
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+    &.text-opinion-vodafone-job {
+        font-size: 20px;
+    }
+
+    }
+
+a {
+    &.link-main-page-background-white-1 {
+        background-color: $color-primary;
+        text-decoration-line: none;
+        font-weight: bold;
+        color: $color-secondary;
+        width: 85%;
+        height: 35px;
+        text-align: center;
+        padding:15px;
+        border-radius: 4px;
+        margin-top: 20px;;
+    }
+
+    &.link-main-page-background-white-2 {
+        background-color: $color-secondary;
+        text-decoration-line: none;
+        font-weight: bold;
+        color: $color-primary;
+        width: 85%;
+        height: 35px;
+        text-align: center;
+        padding: 15px;
+        border: 1px solid $color-primary;
+        border-radius: 4px;
+        margin-top:12px;
+    }
+
+    &.link-opinion-vodafone {
+        text-decoration: none;
+        color:#0982cd;
+        margin-top: 30px;
+        font-size: 20px;
+
+    }
+}
+
+span {
+    &.stats {
+        color: $color-primary;
+        font-size: 45px;
+        font-weight: bold;
+    }
+}
+
+div {
+    &.container-stats {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    &.container-video-vodafone {
+        width:100%;
+        height: 320px;
+
+    }
+
+    &.opinion-vodafone {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 500px;
+        margin-left: 10px;
+    }
+
+    &.text-opinion-vodafone-part2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+    }
+
+}
+
+video {
+    &.video-vodafone {
+        border-radius: 0;
+        clip-path: inset(25px 0 25px 0 round 0 500px 500px 0);
+        width: 90%
+    }
+}
